@@ -5,8 +5,12 @@
         <group>
             <file>file:/C:/Users/User/Documents/NetBeansProjects/InventoryToko/src/view/FormPegawai.java</file>
             <file>file:/C:/Users/User/Documents/NetBeansProjects/InventoryToko/src/model/Pegawai.java</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/InventoryToko/src/view/FormLupa.java</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/InventoryToko/src/controller/controllerLupa.java</file>
             <file>file:/C:/Users/User/Documents/NetBeansProjects/InventoryToko/src/model/TabelModelPegawai.java</file>
             <file>file:/C:/Users/User/Documents/NetBeansProjects/InventoryToko/src/dao/daoPegawai.java</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/InventoryToko/src/view/FormLogin.java</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/InventoryToko/src/controller/controllerLogin.java</file>
             <file>file:/C:/Users/User/Documents/NetBeansProjects/InventoryToko/src/controller/controllerPegawai.java</file>
         </group>
     </open-files>
