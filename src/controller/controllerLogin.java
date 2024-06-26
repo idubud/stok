@@ -10,7 +10,7 @@ import javax.swing.JOptionPane;
 import model.Pegawai;
 import view.FormLogin;
 import view.FormLupa;
-//import view.MenuUtama;
+import view.MenuUtama;
 //import view.FormPembelian;
 /**
  *
@@ -21,7 +21,7 @@ public class controllerLogin {
     List<Pegawai> listPeg;
     daoPegawai daoPeg = new daoPegawai();
     FormLupa lupa = new FormLupa();
-    //MenuUtama menu = new MenuUtama();
+    MenuUtama menu = new MenuUtama();
     //FormPembelian fBeli = new FormPembelian();
     
     public controllerLogin(FormLogin frame) {
@@ -37,6 +37,8 @@ public class controllerLogin {
             Pegawai peg = daoPeg.cekUserPass(frame.getTxtUserName().getText(),
                     frame.getTxtPassword().getText());
             if (peg.getKodepeg() != null) {
+                menu.setVisible(true);
+                
                 batal();
                 frame.setVisible(false);
             } else {
